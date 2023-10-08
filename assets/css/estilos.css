@@ -51,7 +51,7 @@
         flex-wrap: wrap; 
         justify-content: space-between; 
         padding-bottom: 2em;
-        height: 142em;
+        height: 145em;
         background-image: url(../img/fondo-1.jpg);
         background-size: cover;
     }
@@ -335,12 +335,9 @@
         grid-area: menu;
         background-color: #1E5128;
         padding-left: 0;
-        /* height: 100vh; */
         margin-top: 0;
         margin-bottom: 0;
         width: 10em;
-     
-
     }
     main {
         grid-area: main;
@@ -361,7 +358,6 @@
     .lateral {
         display: flex;
         flex-direction: column;
-
     }    
     .categoria {
         flex-direction: row;
@@ -460,7 +456,6 @@
         text-align: center;
         justify-content: center;
     }
-
     h3 {
         color: black;
         text-align: center;
@@ -509,7 +504,6 @@
         width: 100%; 
         max-width: 100%; 
     }
-
     input[type="submit"] {
         background-color: #131313; 
         color: #fff; 
@@ -520,7 +514,6 @@
         cursor: pointer;
         transition: background-color 0.3s ease;
     }
-    
     input[type="submit"]:hover {
         background-color: #0056b3;
     }
@@ -533,37 +526,30 @@
     }
     .menumobile {
         display: none;
-
     }
     .imagen-bn {
         filter: grayscale(100%); 
         transition: filter 0.3s; 
     }
-    
     .imagen-bn:hover {
         filter: grayscale(0%);
     }
-
-.animacion-texto {
-    transition: color 0.3s; 
-}
-
-.producto:hover .animacion-texto {
+    .animacion-texto {
+        transition: color 0.3s; 
+    }
+    .producto:hover .animacion-texto {
     color: green; 
     animation: bounce 0.5s ease infinite; 
-}
-
-
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+    }
+    @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
         transform: translateY(0); 
     }
-    40% {
+        40% {
         transform: translateY(-10px); 
     }
-    60% {
+        60% {
         transform: translateY(-5px); 
     }
-}
-
+    }
 }
