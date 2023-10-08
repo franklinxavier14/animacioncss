@@ -305,7 +305,10 @@
         margin-top: 1em;
     }
     .custom-search-box {
-        width: 100%; 
+        width: 100%;
+    }
+    .container-fluid {
+        justify-content: center;
     }
     
 }
@@ -561,6 +564,9 @@
     }
     .custom-search-box {
         width: 66em; 
+    }
+    .container-fluid {
+        justify-content: center;
     }
     
 }
