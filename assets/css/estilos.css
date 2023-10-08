@@ -31,7 +31,7 @@
         text-align: center;
         justify-content: center;
         display: flex;
-        width: 100%;
+        /* width: 100%; */
         padding-top: 1.5em;
     }
     menu {
@@ -307,9 +307,7 @@
     .custom-search-box {
         width: 100%;
     }
-    .container-fluid {
-        margin-left: 3.5em;
-    }
+
     
     
 }
@@ -566,9 +564,5 @@
     .custom-search-box {
         width: 66em; 
     }
-    .container-fluid {
-        margin-left: 1em;
-    }
-    s
     
 }
