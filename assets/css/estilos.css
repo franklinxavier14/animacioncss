@@ -307,6 +307,9 @@
     .custom-search-box {
         width: 100%;
     }
+    .container-fluid {
+        width: auto;
+    }
 
     
     
@@ -564,5 +567,9 @@
     .custom-search-box {
         width: 66em; 
     }
+    .container-fluid {
+        width: auto;
+    }
+
     
 }
