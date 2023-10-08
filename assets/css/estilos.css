@@ -31,7 +31,6 @@
         text-align: center;
         justify-content: center;
         display: flex;
-        /* width: 100%; */
         padding-top: 1.5em;
     }
     menu {
@@ -458,9 +457,6 @@
         color: black;
         font-size: small;
     }
-    /* #filtro[value="Precio"] {
-        font-size: 11px; 
-    } */
     h1 {
         color: white;
         text-align: center;
@@ -488,6 +484,8 @@
        color: #131313;
        padding-top: 1.5em;
        padding-bottom: 1.5em;
+       margin-left: 1em;
+       margin-right: 1em;
     }
     section {
         grid-area: section;
