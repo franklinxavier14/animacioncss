@@ -52,7 +52,7 @@
         flex-wrap: wrap; 
         justify-content: space-between; 
         padding-bottom: 0;
-        height: 150em;
+        height: 135em;
         background-image: url(../img/fondo-1.jpg);
         background-size: cover;
     }
