@@ -26,22 +26,37 @@
     <div class="grid-container">
       <!-- Filtro Busqueda -->
 
-      <nav>
+      <!-- <nav>
         <div class="contenedor-filtro" id="enlace-buscador">
           <label for="filtro">Buscar Información de Parques en Chile:</label>
           <input type="text" id="filtro" list="opciones" style="width: 95%" />
         </div>
         <datalist id="opciones">
-          <option value="Precio">Torres del Paine</option>
-          <option value="Relevancia">Relevancia</option>
-          <option value="Precio">Precio</option>
-          <option value="Relevancia">Relevancia</option>
-          <option value="Precio">Precio</option>
-          <option value="Relevancia">Relevancia</option>
+          <option value="Torres del Paine">Torres del Paine</option>
+          <option value="Laguna Chaxa">Laguna Chaxa</option>
+          <option value="Alberto de Agostini">Alberto de Agostini</option>
+          <option value="Alerce Andino">Alerce Andino</option>
+          <option value="Laguna Cejar">Laguna Cejar</option>
+          <option value="Aldea de Tulor">Aldea de Tulor</option>
         </datalist>
+      </nav> -->
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid pt-3">
+          <form class="d-flex" role="search">
+            <input
+              class="form-control ms-2 me-2 custom-search-box"
+              type="search"
+              placeholder="Buscar"
+              aria-label="Buscar"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Buscar
+            </button>
+          </form>
+        </div>
       </nav>
 
-      <!-- Menu lateral con categorias -->
+      <!-- Menu lateral -->
 
       <menu>
         <div class="lateral">
@@ -83,7 +98,7 @@
         </div>
       </menu>
 
-      <!-- Grilla con los productos -->
+      <!-- Grilla con parques -->
 
       <main>
         <div class="coleccion" id="enlace-coleccion">
@@ -127,6 +142,9 @@
           </div>
         </div>
       </main>
+
+      <!-- Informacion parques de Chile -->
+
       <article>
         <h5>
           El Sistema de Parques Nacionales en Chile se compone actualmente por
@@ -136,6 +154,9 @@
           Naturales de América “Convención de Washington”.
         </h5>
       </article>
+
+      <!-- Formulario de contacto -->
+
       <aside class="contacto" id="enlace-contacto">
         <h5>Contacto</h5>
         <p>
