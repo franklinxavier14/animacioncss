@@ -50,8 +50,8 @@
         display: flex; 
         flex-wrap: wrap; 
         justify-content: space-between; 
-        padding-bottom: 2em;
-        height: 145em;
+        padding-bottom: 0;
+        height: 155em;
         background-image: url(../img/fondo-1.jpg);
         background-size: cover;
     }
