@@ -308,8 +308,9 @@
         width: 100%;
     }
     .container-fluid {
-        justify-content: center;
+        margin-left: 3.5em;
     }
+    
     
 }
     
@@ -566,7 +567,8 @@
         width: 66em; 
     }
     .container-fluid {
-        justify-content: center;
+        margin-left: 1em;
     }
+    s
     
 }
